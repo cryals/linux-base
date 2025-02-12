@@ -1,10 +1,41 @@
 {
+  "description": "пу пу пу",
+  "homepage": "linux-base.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cryals/linux-base/issues"
+  },
+  "keywords": [
+    "linux",
+    "altgnome",
+    "altregulargnome",
+    "altgnomewiki",
+    "altwiki",
+    "vitepress", 
+    "archlinux", 
+    "arch", 
+    "RedOS", 
+    "Fedora", 
+    "OpenSuse", 
+    "Astra linux", 
+    "debian", 
+    "ubuntu", 
+    "MIT wiki" 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryals/linux-base"
+  },
+
+{
   "devDependencies": {
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "history:build": "npx esrun ./.tools/gitlog.ts",
+    "docs:dev": "npm run history:build -- --dev && vitepress dev",
+    "docs:dev-host": "vitepress dev --host",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
   }
 }
