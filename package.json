@@ -11,23 +11,21 @@
     "altregulargnome",
     "altgnomewiki",
     "altwiki",
-    "vitepress", 
-    "archlinux", 
-    "arch", 
-    "RedOS", 
-    "Fedora", 
-    "OpenSuse", 
-    "Astra linux", 
-    "debian", 
-    "ubuntu", 
-    "MIT wiki" 
+    "vitepress",
+    "archlinux",
+    "arch",
+    "RedOS",
+    "Fedora",
+    "OpenSuse",
+    "Astra linux",
+    "debian",
+    "ubuntu",
+    "MIT wiki"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/cryals/linux-base"
   },
-
-{
   "devDependencies": {
     "vitepress": "^1.6.3"
   },
