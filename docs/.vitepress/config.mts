@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  base: "/", // Так как сайт на основном домене, а не в подпапке
   title: "Linux Base",
   description: "linux is easier than you think",
   themeConfig: {
-    logo: '/assets/logo.png',
+    logo: '/assets/logo.png', // Пути начинаются с /assets/
     nav: [
       { text: 'Главная 🏠', link: '/' },
       { text: 'Документация 🔖', link: '/docs' },
@@ -46,12 +47,12 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/cryals/linux-base' }
     ]
   },
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' }],
-    ['link', { rel: 'icon', href: '/assets/logo.png' }]
+    ['link', { rel: 'icon', href: '/assets/logo.png' }] // Используем /assets/
   ],
   vite: {
     resolve: {
