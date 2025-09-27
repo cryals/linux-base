@@ -8,6 +8,43 @@ Brave — веб-браузер с открытым исходным кодом 
 
 ::: code-group
 
+```shell [Ubuntu, Debian, Mint, PopOS]
+sudo apt install curl
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+
+sudo apt update
+
+sudo apt install brave-browser
+```
+
+```shell [Fedora 41+ (dnf5)]
+sudo dnf install dnf-plugins-core
+
+sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+sudo dnf install brave-browser
+```
+
+```shell [Fedora <41, Rocky/RHEL]
+sudo dnf install dnf-plugins-core
+
+sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+sudo dnf install brave-browser
+```
+```shell [OpenSuse]
+sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+sudo zypper install brave-browser
+```
+
+```shell [Arch Linux]
+yay -S brave-browser
+```
+
 ```shell [Flatpak]
 sudo flatpak install flathub com.brave.Browser
 ```

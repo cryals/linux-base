@@ -28,41 +28,40 @@
     gap: 20px;
     justify-content: center;
   }
-  
+
   .feature-card {
-    border: 0px solid #ddd;
-    background-color: #1f2026;
+    border: 1px solid var(--vp-c-default-3);
+    background-color: var(--vp-c-bg);
     border-radius: 8px;
     padding: 20px;
     width: 300px;
     transition: transform 0.3s;
   }
-  
+
   .feature-card:hover {
     transform: translateY(-10px);
   }
-  
+
   .feature-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
-  
+
   .feature-link {
     display: inline-block;
     margin-top: 1rem;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: var(--vp-c-brand-3);
+    color: var(--vp-c-white);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
     text-decoration: none;
   }
-  
+
   .feature-link:hover {
-    background-color: #0056b3;
+    background-color: var(--vp-c-brand-2);
+    color: var(--vp-c-white);
   }
 
-  
-  </style>
-  
+</style>
