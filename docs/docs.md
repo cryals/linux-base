@@ -16,7 +16,7 @@ const features = [
   {
     title: "Рабочие среды (DE)",
     icon: '<i class="fas fa-desktop"></i>',
-    details: `<a href="/de/kde">KDE</a> <br> <a href="/de/gnome">GNOME</a> <br> <a href="/de/mate">MATE</a> <br> <a href="/de/xfce">XFCE</a> <br> <a href="/de/lxqt">LXQt</a> <br> <a href="/de/hyperland">Hyperland</a> <br> <a href="/de/sway">Sway</a> <br> <a href="/de/swayfx">SwayFX</a> `,
+    details: `<a href="/de/kde">KDE</a> <br> <a href="/de/gnome">GNOME</a> <br> <a href="/de/mate">MATE</a> <br> <a href="/de/xfce">XFCE</a> <br> <a href="/de/lxqt">LXQt</a> <br> <a href="/de/hyprland">Hyprland</a> <br> <a href="/de/swayfx">SwayFX</a> <br> ㅤ  <br> ㅤ  <br>`,
     link: "/de-test",
     linkText: "Пройти тест"
   },
