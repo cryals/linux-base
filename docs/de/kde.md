@@ -102,7 +102,7 @@ KDE предлагает широкий набор приложений, кот�
 | **Debian**           | [debian.org](https://www.debian.org/)       |
 | **ALT Linux**        | [altlinux.org](https://www.altlinux.org/)   |
 | **RedOS**            | [redos.red-soft.ru](https://redos.red-soft.ru/) |
-| **Pop!_OS**          | [pop.system76.com](https://pop.system76.com/) |
+| **Pop!\_OS**          | [pop.system76.com](https://pop.system76.com/) |
 | **Arch Linux**       | [archlinux.org](https://archlinux.org/)     |
 | **Linux Mint**       | [linuxmint.com](https://linuxmint.com/)     |
 | **openSUSE**         | [opensuse.org](https://www.opensuse.org/)   |

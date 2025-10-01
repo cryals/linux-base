@@ -42,8 +42,7 @@ export default defineConfig({
           { text: 'MATE', link: '/de/mate' },
           { text: 'XFCE', link: '/de/xfce' },
           { text: 'LXQt', link: '/de/lxqt' },
-          { text: 'Hyperland', link: '/de/hyperland' },
-          { text: 'Sway', link: '/de/sway' },
+          { text: 'Hyprland', link: '/de/hyprland' },
           { text: 'SwayFX', link: '/de/swayfx' }
         ]
       },
