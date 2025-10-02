@@ -27,7 +27,8 @@
     "url": "https://github.com/cryals/linux-base"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "vitepress-markdown-timeline": "^1.2.2"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

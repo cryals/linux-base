@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import markdownTimeline from 'vitepress-markdown-timeline';
 
 export default defineConfig({
   base: "/",
@@ -119,6 +120,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cryals/linux-base' }
     ]
+  },
+  markdown: {
+    config: (md) => {
+      md.use(markdownTimeline);
+    },
   },
   head: [
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' }],
