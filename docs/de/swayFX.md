@@ -1,6 +1,19 @@
 # SwayFX
 
-<img src="https://i.postimg.cc/TPwY7g3j/unblurimageai-chrome-Tu-IHIVJww2.jpg" alt="SwayFX" style="vertical-align: middle; border-radius: 5px; width: 100%; max-width: auto;"/>
+<div style="
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #202634;
+  border-radius: 5px;
+  text-decoration: none;
+">
+  <img
+    src="https://i.imgur.gg/3WRugEV-68747470733a2f2f692e706f7374696d672e63632f545077593767336a2f756e626c7572696d61676561692d6368726f6d65.jpg"
+    alt="Логотип SwayFX"
+    style="vertical-align: middle; height: auto; width: auto"
+  />
+</div>
 
 **SwayFX** — это форк популярного Wayland-композитора Sway с добавлением визуальных эффектов и улучшений интерфейса. Он сочетает стабильность и производительность Sway с современными визуальными улучшениями, предлагая пользователям лучшее из двух миров.
 
